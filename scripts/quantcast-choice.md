@@ -72,8 +72,10 @@ document.cookie = 'addtl_consent=1~39.4.3.9.6.5.4.13.6.4.15.9.5.2.7.4.1.7.1.3.2.
 
 If all's gone well when the test completes the filmstrip shouldn't contain a consent popup, and the waterfall should have all the third-parties and ads (although some third-parties and ad providers don't serve their content to AWS locations etc)
 
-Here's two tests using https://www.ultimate-guitar.com/
+Here's two tests using https://www.ultimate-guitar.com/  
 
-Without injected script: https://www.webpagetest.org/result/210217_Di80_9e9124921d95b62ddf7db6ff54e9432e/
-With script: https://www.webpagetest.org/result/210217_DiWJ_0bf7a6b75186403f4125c6ccf784981b/
+Without injected script: https://www.webpagetest.org/result/210217_Di80_9e9124921d95b62ddf7db6ff54e9432e/  
+With script: https://www.webpagetest.org/result/210217_DiWJ_0bf7a6b75186403f4125c6ccf784981b/  
+
+Comparison: https://www.webpagetest.org/video/compare.php?tests=210217_Di80_9e9124921d95b62ddf7db6ff54e9432e,210217_DiWJ_0bf7a6b75186403f4125c6ccf784981b
 
