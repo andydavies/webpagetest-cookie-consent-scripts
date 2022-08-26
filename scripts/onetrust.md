@@ -43,8 +43,8 @@ copy(output);
 6. The script will generate another script that looks something like this (it will also copy it to the clipboard) 
 
 ```
-setCookie https://%HOST% OptanonConsent=isIABGlobal=false&datestamp=Sat+May+22+2021+15%3A42%3A12+GMT%2B0200+(Central+European+Summer+Time)&version=6.15.0&hosts=&consentId=ab1fcb80-a45b-49ca-b5f4-357887f51f7a&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&geolocation=DE%3BBY&AwaitingReconsent=false
-setCookie https://%HOST% OptanonAlertBoxClosed=2021-05-04T13:11:41.750Z
+setCookie %ORIGIN% OptanonConsent=isIABGlobal=false&datestamp=Sat+May+22+2021+15%3A42%3A12+GMT%2B0200+(Central+European+Summer+Time)&version=6.15.0&hosts=&consentId=ab1fcb80-a45b-49ca-b5f4-357887f51f7a&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&geolocation=DE%3BBY&AwaitingReconsent=false
+setCookie %ORIGIN% OptanonAlertBoxClosed=2021-05-04T13:11:41.750Z
 navigate %URL%
 ```
 
