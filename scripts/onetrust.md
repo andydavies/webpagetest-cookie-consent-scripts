@@ -31,8 +31,8 @@ var OptanonAlertBoxClosed = cookies.find(entry => entry.startsWith('OptanonAlert
 
 // Generate WPT Script
 var output = 
- `setCookie https://%HOST% ${OptanonConsent}\n` +
- `setCookie https://%HOST% ${OptanonAlertBoxClosed}\n` +
+ `setCookie %ORIGIN% ${OptanonConsent}\n` +
+ `setCookie %ORIGIN% ${OptanonAlertBoxClosed}\n` +
  `navigate %URL%`;
 
 console.log(output);
